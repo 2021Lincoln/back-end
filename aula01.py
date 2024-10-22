@@ -103,3 +103,5 @@ print(f"O desconto do sindicato é de: {valor_sindicato}")
 print(f"O valor total dos descontos é de: {desc_total}")
 print(f"Seu salário liquido é: {total}")
 
+
+"""Foiii"""
