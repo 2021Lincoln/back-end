@@ -83,6 +83,8 @@ sabendo-se que são descontados 11% para o imposto de renda, 8% para o inss e 5%
 Obs: Sálario liquido = salario bruto - descontos
 
 """
+
+"""
 ir = 11
 inss = 8
 sindicato = 5
@@ -103,5 +105,78 @@ print(f"O desconto do sindicato é de: {valor_sindicato}")
 print(f"O valor total dos descontos é de: {desc_total}")
 print(f"Seu salário liquido é: {total}")
 
+"""
 
-"""Foiii"""
+
+
+
+"""Programa 6"""
+"""
+A padaria Sópão vende diariamente uma certa quantidade de pães franceses e uma quantidade de broas.
+Cada pãozinho custa R$ 0,80 e a broa custa R$2,50. do total arrecadado, 43% corresponde aos custos da fabricação.
+Do restante, seu joão guarda 15% numa conta de poupança e 15% ele converte em
+Euros para viagem anual. sabe-se que 1 Euro custo R$ 4,60. Com base nestes fatos, faça um programa 
+para ler as quantidades de pães e de broas, calcular a venda total de pães e broas, custo de fabricação,
+quanto irá guardar na poupança e quantos Euros irá comprar. ao final exibir os dados calculados.
+
+
+"""
+
+continuar = "S"
+
+pao = 0.80
+broa = 2.50
+
+custos_fabricacao = 
+
+poupanca = (15/100)*
+
+viagem = (15/100)*4.60
+
+while continuar == "S":
+
+    qtd_paes = int(input("Qual a quantidade de pães: "))
+
+    qtd_broas = int(input("Qual a quantidade de broas: "))
+
+    continuar = input("Deseja mais alguma coisa? (S-sim/N-nao)")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""Programa 7"""
+"""
+Faça um programa para calcular a quantidade de latas de tintas para pintar um parede. o programa 
+deverá solicitar ao usuario, a altura (float) e o comprimento(float) da parede. Considere que a cobertura
+da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 3,6 litros, que 
+custam R$107,00. informe ao usuario a quantidade de latas de tinta a serem compradas e o preço total.
+
+altura = float(input(""))
+comprimento = float(input(""))
+
+area = altura * comprimento
+
+litros_necessario = match.ceil(litros_necessarios / )
+
+
+
+
+"""
+
+
+""" Programa 8 """
+"""
+Um determinado prêmio da loteria saiu um bolão
+
+"""
