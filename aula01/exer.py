@@ -62,7 +62,7 @@ numReal = float(input("Digite um numero real: "))
 
 n1 = (num1 * 2) * (num2 / 2)
 n2 = (num1 * 3) + num2
-n3 = numReal**2
+n3 = numReal**3
 print(f"O produto do dobro do primeiro com a metade do segundo {n1}")
 print(f"A soma do triplo do primeiro com o terceiro {n2}")
 print(f"O numero real elevado ao cubo {n3}")
@@ -85,9 +85,9 @@ Obs: Sálario liquido = salario bruto - descontos
 """
 
 """
-ir = 11
-inss = 8
-sindicato = 5
+ir = 0.11
+inss = 0.8
+sindicato = 0.05
 
 
 salario = float(input("Digite o valor do salario do mês: "))
@@ -122,24 +122,23 @@ quanto irá guardar na poupança e quantos Euros irá comprar. ao final exibir o
 
 """
 
-continuar = "S"
 
-pao = 0.80
-broa = 2.50
+paes = int(input("Qual a quantidade de pães franceses vendidos: "))
+broas = int(input("Qual a quantidade de broas vendidas: "))
+venda_total = (paes * 0.80) + (broas * 2.50)
+fabricacao = venda_total * 0.43
+restante = venda_total - fabricacao
+poupanca = restante * 0.15
+converter_euros = restante * 0.15
+euros = converter_euros / 6.16
 
-custos_fabricacao = 
 
-poupanca = (15/100)*
+#Exibir os resultados
+print(f"Venda total de paes e broas: R$ {venda_total:.2f}")
+print(f"Custo de fabricação: R$ {fabricacao:.2f}")
+print(f"O valor guardado na poupança: R$ {poupanca:.2f}")
+print(f"Quantidade de Euro que irá comprar: R$ {euros:.2f}")
 
-viagem = (15/100)*4.60
-
-while continuar == "S":
-
-    qtd_paes = int(input("Qual a quantidade de pães: "))
-
-    qtd_broas = int(input("Qual a quantidade de broas: "))
-
-    continuar = input("Deseja mais alguma coisa? (S-sim/N-nao)")
 
 
 
@@ -167,8 +166,15 @@ comprimento = float(input(""))
 
 area = altura * comprimento
 
-litros_necessario = match.ceil(litros_necessarios / )
+litros_necessarios = area / 3
 
+latas_necessario = match.ceil(litros_necessarios / 3.6)
+
+preco_total = latas_necessarias * 107
+
+print(f"Quantidade de latas de tinta a serem compradas: {latas_necessarias}")
+
+print(f"preco total: R${preco_total:.2f}")
 
 
 
@@ -178,5 +184,26 @@ litros_necessario = match.ceil(litros_necessarios / )
 """ Programa 8 """
 """
 Um determinado prêmio da loteria saiu um bolão
+
+
+
+
+
+premio = float(input("Digite o valor total do premio: R$ "))
+
+imposto = premio * 0.07
+
+premio_descontado = premio - imposto
+
+#Calcular a distribuição do premio
+ganhador1 = premio_descontado * 0.46
+ganhador2 = premio_descontado * 0.32
+ganhador3 = premio_descontado - (ganhador1 + ganhador2)
+
+print(f"\nValor total do premio: R$ {premio:.f}")
+print(f"\nO valor do premio após desconto do imposto: R$ {premio_descontado:.f}")
+print(f"\nPrimeiro ganhador receberá: R$ {gnhador1:.f}")
+print(f"\nSegundo ganhador receberá: R$ {ganhador2:.f}")
+print(f"\nTerceiro ganhador receberá: R$ {ganhador3:.f}")
 
 """
