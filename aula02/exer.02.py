@@ -9,10 +9,6 @@ professor nivel 2 R$ 66,00 por hora/aula
 
 """
 
-nivel = int(input("Digite o seu nivel do professor 1 ou 2: "))
-horas_aula = float(input("Digite a quantidade de horas aulas dadas no mês: "))
-
-
 def calc(nivel, horas_aula):
     if nivel == 1:
         salbase = 56 * horas_aula
@@ -28,6 +24,9 @@ def calc(nivel, horas_aula):
 
     return salario
 
+
+nivel = int(input("Digite o seu nivel do professor 1 ou 2: "))
+horas_aula = float(input("Digite a quantidade de horas aulas dadas no mês: "))
 
 print(f"A quantidade de horas a ser recebidas é de: R${calc(nivel, horas_aula)}")
 
