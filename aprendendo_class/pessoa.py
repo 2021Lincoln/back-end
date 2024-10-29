@@ -23,5 +23,3 @@ print("Nome:", pessoa2.nome, "sexo:", pessoa2.sexo, "sexo", pessoa2.sexo)
 print("Nome:", pessoa3.nome, "Data de nascimento:", pessoa3.data_nascimento, "sexo", pessoa3.sexo)
 
 
-pessoa1.falar("Olá..")
-pessoa2.falar("Oi")
